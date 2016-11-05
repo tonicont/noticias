@@ -1,0 +1,21 @@
+<html>
+	<head>
+	</head>
+
+	<body>
+	</body>
+
+	<script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyBZM8p1FkqiaopaqV3204CfTlI1CMRcxZ4",
+	    authDomain: "noticiasf-d3d02.firebaseapp.com",
+	    databaseURL: "https://noticiasf-d3d02.firebaseio.com",
+	    storageBucket: "noticiasf-d3d02.appspot.com",
+	    messagingSenderId: "774706302849"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+
+</html>
