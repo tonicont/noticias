@@ -1,10 +1,12 @@
 angular.module('nfApp', [])
-	.controller('postController', function() {
+	.controller('postController', function(posts) {
 		var postList = this;
 
-		/*
-		firebase.database().ref('/users/' + userId).once('value').then(function(snapshot) {
-  			var username = snapshot.val().username;
+		postList.posts = posts;
+	});
+
+	.service('Posts', function() {
+		return firebase.database().ref('/users/1' ).once('value').then(function(snapshot) {
+  			return snapshot.val().username;
 		});
-		*/
 	});
