@@ -1,3 +1,4 @@
+<!doctype html>
 <html ng-app="nfApp">
 	<head>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
@@ -9,7 +10,7 @@
 			<h1>Prueba de concepto de Firebase</h1>
 		</header>
 
-		<section>
+		<section ng-controller="postController as postList">
 			<div>Usuarios: </div>
 		</section>
 	</body>
