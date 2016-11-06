@@ -1,7 +1,7 @@
 <html ng-app="nfApp">
 	<head>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="js/min.js">∫
+		<link rel="javascript" type="text/js" href="js/main.js">
 	</head>
 
 	<body>
