@@ -1,12 +1,17 @@
-<html ng-app="nfapp">
+<html ng-app="nfApp">
 	<head>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="js/min.js">∫
 	</head>
 
 	<body>
 		<header>
 			<h1>Prueba de concepto de Firebase</h1>
 		</header>
+
+		<section>
+			<div>
+		</section>
 	</body>
 
 	<script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
